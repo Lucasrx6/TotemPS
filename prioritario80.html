@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Totem PS</title>
+    <!-- Inclua o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Inclua o CSS do Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid main-container">
+        <div class="logo-container">
+            <img src="img/logoAnnaNery.png" alt="Logo do Hospital" class="logo">
+        </div>
+        <div class="titulo">
+            <h3>Olá, seja bem vindo(a)</h3>
+            <h1>Escolha uma opção de atendimento</h1>
+        </div>
+        <div class="tituloIn80 rounded-pill">
+            <h1>Preferencial 80+</h1>
+        </div>
+        <div class="button-container">
+            <div class="row">
+                <div class="col button-item">
+                    <button type="button" class="btn btn-warning btn-customPRIORITARIO rounded-pill" onclick="printTicket('Normal')">Normal</button>
+                </div>
+                <div class="col button-item">
+                    <button type="button" class="btn btn-warning btn-customPRIORITARIO rounded-pill" onclick="printTicket('Dor Toracica')">Dor Toracica</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col button-item">
+                    <button type="button" class="btn btn-warning btn-customPRIORITARIO rounded-pill" onclick="printTicket('Ortopedia')">Ortopedia</button>
+                </div>
+                <div class="col button-item">
+                    <button type="button" class="btn btn-warning btn-customPRIORITARIO rounded-pill" onclick="printTicket('Sindrome Respiratoria')">Sindrome Respiratoria</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-btn-voltar">
+        <a href="index.html"><button type="button" class="btn btn-secondary btn-voltar rounded-pill">Voltar</button></a>
+    </div>
+
+
+
+
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Imprimindo senha...</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Inclua o JS do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
