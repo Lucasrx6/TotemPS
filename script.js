@@ -6,5 +6,5 @@ function printTicket(ticketType) {
     setTimeout(function() {
         popup.style.display = "none";
         window.location.href = 'index.html';
-    }, 1000);
+    }, 2000);
 }
